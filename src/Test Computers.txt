@@ -1,0 +1,73 @@
+Design:
+Desktop
+Windows XP Professional, ver 2002
+Pentium 4 1.4 GHz
+256 MB RAM
+SoundBlaster LIVE! 5.1
+DirectX v9.0c
+NVidia GeForce FX 5200
+
+Testing:
+1:
+Build 3.4.0.3
+Laptop
+Windows XP Professional, ver 2002
+Pentium 4 1.8 GHz
+480 MB RAM
+Unknown Sound Card
+Unknown DirectX Version
+Unknown Video Card
+NOTES ON PC 1:
+No problems encountered.
+
+2:
+Build 5.8.0.6
+Desktop
+Windows 98 SE
+Pentium 2 266 MHz
+64 MB RAM
+Yamaha Sound Board
+Unknown DirectX Version
+Intel Video Card
+NOTES ON PC 2:
+*SOUND NOT TESTED*
+Canvasses did not clear (Problem might be related to graphics driver) (Not all GDI's support FloodFill)
+
+3:
+Build 4.9.0.1
+Laptop
+Windows XP Home ver 2002 Service Pack 2
+Celeron 1.6 GHz
+192 MB RAM
+Conectix? Sound Card (Legacy Audio Drivers)
+Unknown DirectX Version
+ATI Radeon 9200
+NOTES ON PC 3:
+MIDI sound was slightly off, causing overlapping of patterns.
+
+4:
+Build 5.9.5.5
+Desktop
+{MICHAEL SE PC}
+NOTES ON PC 4:
+
+5:
+Build 5.6.0.1+
+Laptop
+(MICHAEL SE MA SE PC)
+NOTES ON PC 5:
+Major integer overflow error.
+
+6:
+Build 5.8.0.4
+Desktop
+(MICHAEL SUSTER PC)
+NOTES ON PC 6:
+XP Service Pack 1, integer overflow error did not occur.
+
+7:
+Build 5.9.2.x
+Desktop
+(QUENTIN TURNER PC)
+NOTES ON PC 7:
+Integer oveflow error occured, but program continued working normally.

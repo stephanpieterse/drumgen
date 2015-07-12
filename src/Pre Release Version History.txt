@@ -1,0 +1,410 @@
++= VERSION HISTORY FOR: =+
+GenP.exe
+DRUMGEN : THE ULTIMATE DRUM EXERCISE GENERATOR
+
+---------------
+PROGRAMMING HOURS : +- 230;
+TIME TAKEN TO COMPLETE : +- 20 Months (9 Month Rest Period);
+ASSESMENTS DONE : 1;
+ASSESMENT HOURS : +- 11;
+Build : 6.0.3.1
+Estimated permutations of patterns to date:
+2.0611555287763243636011062946658e+4678
+---------------
+
+22 May 2008
+Legend added for use on main screen and in saved .bmp's.
+Random Options interface and implementation changed.
+Removed previous subdivision implementation.
+
+20 May 2008
+Extensively updated readme.
+Toolbar Random Drop-down button now executes previous procedure when clicked but dropdown not initiated.
+
+19 May 2008
+Fixed bug deleting "No Sound" from the Kit Designer.
+Created splash-screen image.
+
+18 May 2008
+Replaced all buttons with new format buttons (Encarta and Square).
+Kit Designer Design / Exit Design Mode button integrated into single button.
+Random exercise toolbar options changed to single dropdown menu.
+ReadMe format changed to PDF.
+ReadMe form removed, replaced on Main form with ShellExecute code.
+
+17 May 2008
+Added smoothed edges to notation image.
+Changed form colour.
+Removed About form borders.
+When selecting note symbol from pop-up, the name of the instrument is displayed aswell.
+Clearing the Kit Designer now re-adds the items to the list.
+
+16 May 2008
+Added Shift Pattern Left/Right Function.
+
+15 May 2008
+Ver 6.0.3.1
+Singular MIDI combo-boxes update.
+Updated MIDI options interface.
+Added Apply Voicing to pattern pop-up menu.
+Random Subdivision and Note Value moved to another popup box.
+Changed edit pattern group show method.
+Added status bar, and started coding hints for all the components.
+Minor Play-Along interface change.
+Minor Random Voicing and Load Standard Template revision.
+
+11 May 2008
+Continued re-writing threads.
+Fixed tempo change bug.
+Removed unneccessary code.
+
+09 May 2008
+Ver 6.0.3.0
+Note groupings related to subdivisions.
+Accent and subdivision indicators moved.
+Removed code not needed anymore.
+Started re-writing threads.
+
+06 May 2008
+Added basic beamed notes feature.
+
+05 May 2008
+"Edit Pattern" Method changed, now responds to where the mouse is moved in the grid.
+Pattern Repository Moved.
+Play-Along feature clear method updated.
+
+06 March 2008
+Updated Readme.
+Continued Random Voicing Feature.
+Fixed Kit Voicing Save bug.
+Fixed Metronome Subdivision initialisation bug.
+Metronome now shows current chosen note value.
+Minor interface change.
+Moved some options to a options tab on the main form.
+Grace notes functionality completely removed until coding is complete.
+Updated ReadMe.
+Device Controls now hide whenever it, the play-along or the main form is not the active form.
+Voicing / Kit Form may now only have 1 source per sound.
+Fixed editing notes while MIDI playing bug.
+Comment show bug fixed.
+Comments reverted to old method of 255 chars.
+Registration code completed. (Minor warning messages should still be added.)
+Started Coding Basic Rhythm Trainer Input Features.
+Started Basic Grace Note Functionality.
+Added Grace Note volume to MIDI form.
+Changed MIDI Form layout.
+
+Largely fixed scrollbar scrolling.
+Fixed MetroGrid Length bug.
+Play Along Kit and Rhythm Trainer icons changed.
+Removed Kit Designer from Tool Buttons, and removed icon.
+Moved Metronome Timers into Threaded procedures.
+
+Device Controls now closable from its own form.
+Add button to show/hide pattern repository feature.
+Added Seperate Subdivision Pulse Base Feature.
+Syncronised Metronome Timers.
+Added Seperate Subdivision Timer for the Metronome.
+Added Load Pattern Repository into Existing Repository feature.
+Updated Sticking Patterns form. (Better display, note beams.)
+Added registration details file generation.
+Moved accent display position.
+Added basic note beams.
+Linked Limbs now working.
+Fixed Device Controls tempo bug.
+Removed Pattern / Song Option.
+Started Coding Registration form and process.
+90% Completed General interface.
+Fixed tiny Save Data bug.
+Drum Pad and Brush Patterns completely removed from project (see builds below 6.x for archaics).
+Added code to prevent some General Pattern issues when no pattern is selected.
+Updated ReadMe.
+Fixed minor complex subdivision issue.
+Updated Main Interface.
+Changed Metronome Interface.
+
+Code streamlined for General interface.
+Added additional rest symbols reflecting note values.
+Found and deleted numerous lines of outdated / unused / component deleted code.
+Restructured and redefined numerous procedures for compatibility and useability.
+Intensely Streamlined code for new General interface.
+Fixed some Rhythm Trainer metronome bugs.
+Extended Main Canvas Height.
+Added Basic Rest Note Drawing Functionality.
+Hid Old Style Pattern Editing Groups.
+Mute button code streamlined.
+Removed Brush Patterns function.
+Added "Linked to:" group box.
+Started coding general pattern options group and grace note combinations.
+
+Started fixing the MIDI save code and Voicing save code.
+Added ReadMe HTML to exe and a form to display it.
+Added 'Save as MIDI' info message.
+Changed ReadMe to HTML format.
+Optimized Custom Pulse Pattern Code.
+Started Coding Rhythm Trainer Form.
+Started Coding Registration Form.
+Added 'Gray' Icons.
+Changed Random features icons.
+Fixed Integer Overflow and Range Check error relating to MIDI Devices not found.
+Metronome 'Sound On' changed to 'Mute Sound'.
+Pattern Repository file code changed (Now supports unlimited patterns).
+Fixed Random Subdivision generating a 'Division by zero' error.
+Fixed a few Kit Designer bugs.
+Added Voicing limb colour options.
+Kit Designer Voicings shifted to separate image components.
+Minor changes to MIDI form.
+Multiple sounds extended to 10.
+Some controls of Play Along form removed.
+Added Device Controls.
+Metronome form less dependant on Main form.
+Removed encryption on saved files.
+Improved Pattern Repository functionality.
+New icons for Kit Designer and Stickings.
+Added some container enabling/disabling features.
+Modified About form.
+Recoded Sticking Patterns drawing methods.
+Added grace notes to Sticking Patterns.
+Added Auto-Add to Pattern Repository.
+Encrpytion added to Saved Pattern repository.
+Pattern Repoistory extended to 300 Patterns.
+Some brush pattern code modified and optimized.
+Some pulser modifications to use the scrollbar (Not 100% working just yet).
+Tempo removed from saved history.
+Comments extended to 1000 characters (Still a few bugs).
+Minor Interface, MIDIStop, Pattern Repository and Tempo Changes revisions.
+Created basic 'Rest' note images.
+
+Added code to About form, preventing illegal changes to any important info.
+Added Resolution adapting code to all forms.
+Changed Sticking Patterns form layout.
+Coded enabling / disabling the scrollbar depending on the length of the exercise.
+Fixed bug that caused printing when the Cancel button on the Print dialog was pressed.
+Corrected old bug generating wrong amount of 'Counts' for the position line.
+Added error preventing code to Accent/Unaccent note function.
+Fixed old bug of Position Line counting from the wrong place when subdividing the metronome.
+Notes now always start on the same place, no more large gaps between the labels and start of notes.
+Replaced all CopyRect Clearing methods with FillRect (Memory and foreseeable error issue).
+Coded Random Complex Subdivisions.
+Optimized some code, found unneeded paramaters and procedures and removed them.
+Added MySpace details to about form.
+Optimized some code, fixed the annoying range check error.
+Added Delete Pattern from Pattern Repository, as well as some minor error-preventing code.
+Added warning message to 'Clear Pattern Repository'.
+Changed Metronome Click CheckBox to a Glyph Button.
+Added Save and Open Pattern Repository functions to main menu.
+Changed Sticking Patterns form layout.
+Added some functionality to Pattern Repository functions.
+Optimized old ErrorChecker code.
+Completed entire Pattern Repository code (No more errors).
+Added 'Add to Pattern Repository' function to Sticking Patterns form.
+Added Pattern Repository (1 unfixed error still).
+Changed old 'GenP' file extension to new 'DrumGen'.
+Rearranged interface.
+Started coding Song / Pattern function.
+Extra functionality code for DrawCount and Frmprefs.
+Completed some PlayAlong kit code.
+Fixed a very old undiscovered kit drawing bug.
+New Method used for clearing kit canvasses.
+Sticking Ellipses changed to Standard Symbol.
+Added Info Message to Kit designer indicating if it can be used or not.
+Changed Saving Kit Voicings procedure (Easier debugging).
+Removed Line function from Kit Designer.
+Added button to access Kit Designer from Play Along form.
+Added Message to indicate if no sound sources exist (Random Voicing).
+Restructured Menu interface.
+Fixed bug relating to new MIDI playing method.
+Restructured some MIDI Message functions (Easier debugging).
+Fixed Pulse Pattern bug not playing correct sounds.
+Removed volume image from metronome form.
+Added PlayAlong ToolButton & Icon.
+Changed MIDI playing method.
+Improved comment form and display code.
+Re-arranged and updated interface.
+Started Random Voicing Coding.
+Added ColorBoxes for Normal / Accented Play Along notes.
+Completed Basic Play Along functions.
+Fixed Random Exercise Crash Bug.
+Added OK buttons to forms.
+Completed Basic Random Options Code.
+Removed Fill function from Kit Designer.
+Replaced all FloodFill with CopyRect (Old GDI command support issue)
+Decreased max count to 17.
+Updated Interface Look.
+Added Input List to DrumPad.
+Fixed Tempo Tap Bug.
+Added Standard Voicing Template.
+Integrated Voicing Data and Image.
+Fixed Tempo Typing Error.
+Added Print function.
+
+MIDI Play/Pause/Stop improved.
+Updated MIDI Options Interface.
+Removed Mute from MIDI Options.
+Modified Sticking Pattern form.
+Added Assign Limb feature for Single Voicings on the Voicing form.
+Added Option to Enable / Disable Complex Subdivisions.
+Sticking Patterns now only generate with 2 or more strokes.
+Fixed MIDI Playback Bug.
+Added Play Along Kit Form.
+Improved Interface.
+Removed Build and Last Update info from About form.
+Fixed Major MIDI Volume Bug.
+Added Complex Subdivisions.
+
+Maximum bars reduced to 5, maximum count increased to 32.
+Added Shift / Adapt accent option.
+Changed MIDI playing method.
+Changed implementation. Notes are drawn/cleared or accented/unaccented through 1 selection.
+Added code so that Save Bitmap saves the entire pattern in a friendlier manner.
+Added Drum Pad to functions menu.
+Changed Random Difficulty Options implementation.
+Added Scrollbar to Main Form. (For lengthy patterns)
+Added Drum Pad form. (Not a lot of code just yet)
+Added Apply Sticking function.
+Added Inverse and Reverse Sticking functions.
+Streamlined Randomator Codes.
+Removed Grace Note functions.
+Added Sticking Form.
+Added Instrument Options to Metronome Form.
+Added Tempo to Main form.
+Improved Brush Patterns form functionality and interface.
+User can now select which device should be used for MIDI output.
+Added Brush Patterns form.
+Added Difficulty Settings.
+Improved Interface.
+Added Random Subdivision and Random Note Value options to Pattern Pop-Up menu.
+Removed Random Checkboxes (Archaic).
+Added "Test" button to metronome form for testing and/or standalone use.
+Improved Kit Designer Code.
+Changed Kit Designer Interface.
+Added MUTE options to Main Screen.
+Added option to cancel certain limbs generating patterns.
+Added 2, 3 or 4 way independence options.
+Slider now slides according to metronome pulse.
+Corrected "Save As JPEG" to "Save As Bitmap".
+Added General Options.
+Removed Random Count Feature.
+Added Auto-Update feature.
+Improved Interface.
+Changed Subdivision and Note Value RadioButtons to Glyph Buttons.
+Changed Counting Options.
+
+MIDI timing and efficiency improved.
+History function improved.
+Users can now save a bmp and GenP file containing voicing data.
+Removed Reload Previous function from Kit Voicing form.
+Reverse Function on Voicing form now reverses Sound Areas as well.
+Users can now create voicing on the Kit Voicing form that can be applied to the kit.
+User can now choose instruments and note volume.
+Added form for MIDI options.
+Simplified interface
+Resized Rhythm Chart
+Added virtual grid selection.
+Changed Metronome to MIDI.
+Removed Slider.
+Added code to draw a virtual grid on the canvas.
+Removed String Grids again.
+Added Accent functionality to MIDI drums.
+Added Comments to the TPattern Data (History).
+Added Basic MIDI functionality.
+Added Metronome Options and Kit Voicings ToolBar buttons.
+Removed Super Exercise function.
+Removed Splash image.
+Added Random Grace Note CheckBoxes for specific limbs.
+Added Random Options form.
+Added Kit Designer to Kit Voicing Form.
+Added Swap Pattern function to the pop-up menu.
+Added Kit Voicing Form.
+Removed Legend.
+Changed the saving and loading method to data instead of text.
+Added back the String Grid, 1 for each limb.
+Added splash image.
+Moved metronome options to a seperate form.
+Removed ghost note function
+
+Added Other Pulse Pattern function to metronome.
+Removed the Rhythm Chart heading.
+Changed Program Name
+Added a verical line to the slider function.
+Added Toolbar & Icons
+Modified interface.
+Added Random Function to Right-Click menu.
+Added Inverse Pattern Functions.
+Added Reset Function for metronome features.
+Added Reverse Pattern Function.
+Added popup menu for right-clicking on patterns.
+Integrated metronome into GenP, as well as a slider to show where you are on the chart.
+Revamped interface.
+Removed encryption feature due to compatibilty issues.
+
+Updated interface, and slightly improved on it.
+Added more Random options.
+Seperated Note Value and Subdivision Random procedures.
+Updated Counting and Error Correcting procedures.
+Added Encryption for saved files.
+Added Legend
+Added Error Checking and Correcting procedures.
+Updated Grace note generating method.
+Streamlined saving procedures' method.
+Slightly modified interface.
+Added Grace Notes.
+Added Ghost Notes.
+Added Save History and Open History functions.
+Thoroughly updated the ReadMe file.
+Modified interface for easier use and better low-resolution quality.
+Removed columnised grid and associated features.
+
+Modified Super-Exercise feature.
+Fixed a few minor problems concerning the Super-Exercises.
+Modified interface for better low-resolution quality.
+Generate Rhythm and Generate Accent buttons replaced by Generate Pattern for Notation Grid.
+Fixed a bug in the save functions.
+Fixed Save functions to include the Count used.
+Updated Super-Excercise Function
+Slightly modified interface for better low-resolution quality.
+Fixed Clear History procedure.
+Updated Super-Exercise function.
+Changed loading of history method.
+Added Super-Exercise function.
+
+Added code to adapt form to resolution.
+
+Slightly modified interface.
+Changed notation counting method.
+Changed interface back to old interface.
+Made notation and columnised grid independent of each other.
+Updated random procedure to use less processing time.
+Changed random procedure method.
+Changed initial counting method.
+Fixed various spelling mistakes.
+Reset functions now include resetting subdivisions.
+Added random subdivision function.
+Set maximum and minimum values for the count and bar spin-edits.
+Updated labels to display the correct terminology for functions.
+Changed interface.
+Updated pattern generation so note values apply to patters even if they are not subdivided.
+Added subdivision and note values.
+Added history function.
+Add ability to save the notation as a .jpeg file.
+Fixed 'About' Form.
+Boxes displaying the count of each limb can no longer be modified.
+Changed default values of components.
+Updated open and save generated data files to include subdivision and note value settings.
+Updated open and save procedures to flag files as read-only.
+Added ability to save and open generated data files.
+Changed interface.
+Added image box to draw notation.
+
+Removed presets.
+Removed accent studies function.
+Changed Icon to crossed drumsticks.
+
+Added accent studies function.
+Added random count function.
+Added ability to save and open text files with pattern data.
+Added a random function for patterns and accents.
+
+++Original Program++
+A program where you could either choose from preset patterns, or manually entered ones, for both rhythm and accent, and a chart was generated.
+
